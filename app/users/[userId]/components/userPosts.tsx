@@ -14,5 +14,6 @@ export default async function UserPosts({ promise }: Props) {
       </article>
     );
   });
+
   return content;
 }
