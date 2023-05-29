@@ -12,18 +12,13 @@
   }
 
   body {
-    @apply flex h-full flex-col;
+    @apply flex h-full flex-col bg-slate-800;
   }
 
   main {
-    @apply flex-1 bg-[#333];
+    @apply flex-1;
   }
-
-  .section {
-    @apply py-24;
-  }
-
-  .center {
-    @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  .primary-button {
+    @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400  active:bg-amber-500;
   }
 }
